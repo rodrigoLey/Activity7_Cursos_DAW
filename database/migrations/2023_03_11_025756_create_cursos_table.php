@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('cursos', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre_curso');
+            $table->unsignedBigInteger('id_kit');
+            $table->foreign('id_kit')->references('id')->on('kit_de_roboticas');
             $table->timestamps();
         });
     }

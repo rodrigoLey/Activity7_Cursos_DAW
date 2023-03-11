@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('usuarios', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre_usuario');
+            $table->string('rol');
+            $table->string('email');
+            $table->string('password');
+            $table->unsignedBigInteger('id_grupos_cursos')->nullable();
+            $table->foreign('id_grupos_cursos')->references('id')->on('grupos_cursos');
             $table->timestamps();
         });
     }
