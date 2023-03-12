@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-03-2023 a las 04:31:28
+-- Tiempo de generación: 12-03-2023 a las 04:06:13
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -35,6 +35,112 @@ CREATE TABLE `cursos` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `cursos`
+--
+
+INSERT INTO `cursos` (`id`, `nombre_curso`, `id_kit`, `created_at`, `updated_at`) VALUES
+(101, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(102, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(103, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(104, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(105, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(106, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(107, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(108, 'Introduction to Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(109, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(110, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(111, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(112, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(113, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(114, 'Introduction to Automation', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(115, 'Programming for Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(116, 'Programming for Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(117, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(118, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(119, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(120, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(121, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(122, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(123, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(124, 'Introduction to Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(125, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(126, 'Introduction to Automation', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(127, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(128, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(129, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(130, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(131, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(132, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(133, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(134, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(135, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(136, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(137, 'Introduction to Automation', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(138, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(139, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(140, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(141, 'Programming for Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(142, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(143, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(144, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(145, 'Introduction to Automation', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(146, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(147, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(148, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(149, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(150, 'Introduction to Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(151, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(152, 'Programming for Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(153, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(154, 'Introduction to Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(155, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(156, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(157, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(158, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(159, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(160, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(161, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(162, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(163, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(164, 'Introduction to Automation', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(165, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(166, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(167, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(168, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(169, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(170, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(171, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(172, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(173, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(174, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(175, 'Introduction to Automation', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(176, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(177, 'Characteristics of a Robot', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(178, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(179, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(180, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(181, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(182, 'Introduction to Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(183, 'Introduction to Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(184, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(185, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(186, 'Characteristics of a Robot', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(187, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(188, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(189, 'Programming for Robotics', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(190, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(191, 'Introduction to Automation', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(192, 'Introduction to Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(193, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(194, 'Introduction to Automation', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(195, 'Introduction to Robotics', 2, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(196, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(197, 'Introduction to Automation', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(198, 'Introduction to Automation', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(199, 'Characteristics of a Robot', 1, '2023-03-12 06:15:00', '2023-03-12 06:15:00'),
+(200, 'Programming for Robotics', 3, '2023-03-12 06:15:00', '2023-03-12 06:15:00');
+
 -- --------------------------------------------------------
 
 --
@@ -64,6 +170,13 @@ CREATE TABLE `grupos` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `grupos`
+--
+
+INSERT INTO `grupos` (`id`, `nombre_grupo`, `created_at`, `updated_at`) VALUES
+(1, 'LSTI1830FLE.F41.202340', NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -78,6 +191,13 @@ CREATE TABLE `grupos_cursos` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `grupos_cursos`
+--
+
+INSERT INTO `grupos_cursos` (`id`, `id_cursos`, `id_grupos`, `created_at`, `updated_at`) VALUES
+(1, 101, 1, NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -90,6 +210,15 @@ CREATE TABLE `kit_de_roboticas` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `kit_de_roboticas`
+--
+
+INSERT INTO `kit_de_roboticas` (`id`, `nombre_kit`, `created_at`, `updated_at`) VALUES
+(1, 'StarterKit', NULL, NULL),
+(2, 'Educational Robotics Kit', NULL, NULL),
+(3, 'Kit5', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -184,6 +313,15 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nombre_usuario`, `rol`, `email`, `password`, `id_grupos_cursos`, `created_at`, `updated_at`) VALUES
+(1, 'Admon', 'Administrativo', 'admon@robotics.com', 'Adm@2022', NULL, NULL, NULL),
+(2, 'Tecmilenio', 'Profesor', 'tecmilenio@robotics.com', 'Adm@2022', 1, NULL, NULL),
+(3, 'Estudiante', 'Estudiante', 'student@robotics.com', 'Adm@2022', 1, NULL, NULL);
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -263,7 +401,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `cursos`
 --
 ALTER TABLE `cursos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=201;
 
 --
 -- AUTO_INCREMENT de la tabla `failed_jobs`
@@ -275,19 +413,19 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT de la tabla `grupos`
 --
 ALTER TABLE `grupos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `grupos_cursos`
 --
 ALTER TABLE `grupos_cursos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `kit_de_roboticas`
 --
 ALTER TABLE `kit_de_roboticas`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `migrations`
@@ -311,7 +449,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Restricciones para tablas volcadas
