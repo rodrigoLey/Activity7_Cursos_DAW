@@ -6,6 +6,20 @@ Matricula: 2845996<br>
 Actividad acerca de la creacion y ejecucion de migraciones, seeders y factories en proyectos de laravel
 
 ## Gráfico ER
+- Creacion de tablas
+![Tablas](./images/activity7_tablas.png)
+- Grafico ER
+![Grafico ER](./images/activity7_graficoer.png)
+- Tabla Usuarios
+![Usuarios](./images/activity7_usuarios.png)
+- Tabla Grupos-Cursos
+![Grupos-Cursos](./images/activity7_grupos_cursos.png)
+- Tabla Grupos
+![Grupos](./images/activity7_grupos.png)
+- Tabla Cursos
+![Cursos](./images/activity7_cursos.png)
+- Tabla Kit Robotica
+![Kit Robotica](./images/activity7_kit_robotica.png)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
