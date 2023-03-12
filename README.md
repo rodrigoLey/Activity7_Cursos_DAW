@@ -1,3 +1,12 @@
+# Nombre del proyecto: Actividad 7 & Tarea 6_DAW
+Nombre: Rodrigo Ley Muñoz<br>
+Matricula: 2845996<br>
+
+## Descripción del proyecto
+Actividad acerca de la creacion y ejecucion de migraciones, seeders y factories en proyectos de laravel
+
+## Gráfico ER
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
