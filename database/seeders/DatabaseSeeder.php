@@ -21,6 +21,9 @@ class DatabaseSeeder extends Seeder
 
         $this->call(kit_de_roboticaSeeder::class);
         $this->call(cursosSeeder::class);
+        $this->call(gruposSeeder::class);
+        $this->call(grupos_cursosSeeder::class);
+        $this->call(usuariosSeeder::class);
 
     }
 }
